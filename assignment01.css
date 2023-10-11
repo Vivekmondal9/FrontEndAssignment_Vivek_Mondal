@@ -1,11 +1,13 @@
-body{
-    background-color:#4014c4;
+body {
+    background-color: #4014c4;
 }
-p{
+
+p {
     font-size: 18px;
     cursor: pointer;
 }
-.header{
+
+.header {
 
     display: flex;
     flex-wrap: wrap;
@@ -16,25 +18,32 @@ p{
     margin-left: 50px;
     margin-right: 50px;
 }
-.startup{
+
+.startup {
     color: white;
     font-size: 18px;
 }
-.right-header{
+
+.right-header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     gap: 2em;
     align-items: center;
 }
-.overview{
+
+.overview {
     color: gray;
 }
-.prices,.blog,.feedback,.purchase{
+
+.prices,
+.blog,
+.feedback,
+.purchase {
     color: white;
 }
 
-.purchase{
+.purchase {
     background-color: #ed2bc9;
     width: auto;
     padding-left: 8px;
@@ -43,22 +52,29 @@ p{
     padding-bottom: 4px;
     border-radius: 20px;
 }
-.maindiv{
+
+.maindiv {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 50px;
     align-items: center;
     flex-wrap: wrap;
     padding-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
-.left-span{
+
+.left-span {
     flex-basis: 30%;
 }
-.tagline{
+
+.tagline {
     color: white;
     font-size: 70px;
 }
-.textpart{
+
+.textpart {
     width: 85%;
     color: white;
     font-family: 'Roboto', sans-serif;
@@ -67,12 +83,85 @@ p{
     text-align: start;
     font-weight: 300;
 }
-.learnMore{
+
+.learnMore {
     text-align: center;
-    width:150px;
+    width: 150px;
     background-color: #ed2bc9;
     color: white;
     padding-top: 15px;
     padding-bottom: 15px;
     border-radius: 30px;
+}
+
+.right-span {
+    background-color: white;
+    padding-bottom: 20px;
+    height: auto;
+    /* width: 30vw; */
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    /* justify-content: center;  */
+}
+
+form {
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    gap: 20px;
+    width: 30vw;
+}
+input{
+    height: 5vh;
+    text-align: center;
+    border-color: rgb(67, 66, 66);
+    border-radius: 20px;
+    font-size: 20px;
+    
+}
+
+.signinHead {
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Young Serif', serif;
+    font-weight: 100;
+}
+.chkbox{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.sgbtn{
+    background-color: #2b55ed;
+    width: 20vw;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    color: white;
+    font-size: 15px;
+}
+
+.loginbtn{
+    background-color:#34a6e3;
+    width: 20vw;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    color: white;
+    font-size: 15px;
+}
+
+.lastspan{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
 }
